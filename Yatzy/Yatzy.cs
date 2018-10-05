@@ -1,4 +1,14 @@
 public class Yatzy {
+    
+    public Yatzy(int d1, int d2, int d3, int d4, int d5)
+    {
+        dice = new int[5];
+        dice[0] = d1;
+        dice[1] = d2;
+        dice[2] = d3;
+        dice[3] = d4;
+        dice[4] = d5;
+    }
 
     public static int Chance(int d1, int d2, int d3, int d4, int d5)
     {
@@ -36,6 +46,7 @@ public class Yatzy {
 
     protected int[] dice;
     protected static int MaxNumber = 6;
+    
     public Yatzy(int d1, int d2, int d3, int d4, int _5)
     {
         dice = new int[MaxNumber - 1];
@@ -189,11 +200,16 @@ public class Yatzy {
 
 
         tallies = new int[6];
-        tallies[d1-1] += 1;
-        tallies[d2-1] += 1;
-        tallies[d3-1] += 1;
-        tallies[d4-1] += 1;
-        tallies[d5-1] += 1;
+        
+        int[] dices = new int[] { d1, d2, d3, d4, d5 };
+            
+        foreach (int dice in dices)
+            tallies[dice - 1]++;
+        
+        int[] dices = new int[] { d1, d2, d3, d4, d5 };
+            
+            foreach (int dice in dices)
+                tallies[dice - 1]++;
 
         for (i = 0; i != 6; i += 1)
             if (tallies[i] == 2) {
