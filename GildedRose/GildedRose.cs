@@ -4,6 +4,9 @@ namespace csharp
 {
     public class GildedRose
     {
+        private static  int MaxNumber = 50; 
+        private static  int MinNumber = 0; 
+        
         IList<Item> Items;
         public GildedRose(IList<Item> Items)
         {
@@ -12,7 +15,7 @@ namespace csharp
 
         public void UpdateQuality()
         {
-            for (var i = 0; i < Items.Count; i++)
+            for (var i = MinNumber; i < Items.Count; i++)
             {
                 
                 bool ageSentence = Items[i].Name == "Aged Brie";
@@ -25,7 +28,7 @@ namespace csharp
                 }
                 else
                 {
-                    if (Items[i].Quality < 50)
+                    if (Items[i].Quality < MaxNumber)
                     {
                         Items[i].Quality = Items[i].Quality + 1;
 
@@ -49,7 +52,7 @@ namespace csharp
                     Items[i].SellIn = Items[i].SellIn - 1;
                 }
 
-                if (Items[i].SellIn < 0)
+                if (Items[i].SellIn < MinNumber)
                 {
                     if (!agedSentence)
                     {
@@ -72,14 +75,14 @@ namespace csharp
         
         private void UpgradeQuality(int i)
         {
-            if (Items[i].Quality < 50)
+            if (Items[i].Quality < MaxNumber)
             {
                 Items[i].Quality = Items[i].Quality + 1;
             }
         }
         private void ReductionQuality(int i, bool sulfurasSentence)
         {
-            if (Items[i].Quality > 0)
+            if (Items[i].Quality > MinNumber)
             {
                 if (!sulfurasSentence)
                 {
