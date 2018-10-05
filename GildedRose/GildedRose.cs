@@ -14,11 +14,16 @@ namespace csharp
         {
             for (var i = 0; i < Items.Count; i++)
             {
-                if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
+                
+                bool ageSentence = Items[i].Name == "Aged Brie";
+                bool sulfurasSentence = Items[i].Name == "Sulfuras, Hand of Ragnaros";
+                bool backstageSentence = Items[i].Name == "Backstage passes to a TAFKAL80ETC concert";
+                
+                if (!backstageSentence && !agedSentence)
                 {
                     if (Items[i].Quality > 0)
                     {
-                        if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                        if (!sulfurasSentence)
                         {
                             Items[i].Quality = Items[i].Quality - 1;
                         }
@@ -30,7 +35,7 @@ namespace csharp
                     {
                         Items[i].Quality = Items[i].Quality + 1;
 
-                        if (Items[i].Name == "Backstage passes to a TAFKAL80ETC concert")
+                        if (backstageSentence)
                         {
                             if (Items[i].SellIn < 11)
                             {
@@ -51,20 +56,20 @@ namespace csharp
                     }
                 }
 
-                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                if (!sulfurasSentence)
                 {
                     Items[i].SellIn = Items[i].SellIn - 1;
                 }
 
                 if (Items[i].SellIn < 0)
                 {
-                    if (Items[i].Name != "Aged Brie")
+                    if (!agedSentence)
                     {
-                        if (Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
+                        if (!backstageSentence)
                         {
                             if (Items[i].Quality > 0)
                             {
-                                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                                if (!sulfurasSentence)
                                 {
                                     Items[i].Quality = Items[i].Quality - 1;
                                 }

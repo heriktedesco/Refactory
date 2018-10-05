@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4862031d-6efe-47c1-9caf-c5b790d0b668" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/GildedRose/GildedRose.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GildedRose/GildedRose.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2112434168">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="61" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GildedRose/GildedRoseTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GildedRose/GildedRose.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="74" />
+              <folding>
+                <marker date="1538729538007" expanded="true" signature="51:3243" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="81:3241" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="159:211" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="248:3235" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="308:3225" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="732:972" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="829:950" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="1076:1964" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="1254:1942" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="1334:1598" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="1423:1568" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="1652:1916" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="1741:1886" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2050:2145" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2187:3211" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2259:2952" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2371:2765" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2451:2739" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2564:2709" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2794:2930" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="2977:3193" ph="{...}" />
+                <marker date="1538729538007" expanded="true" signature="3050:3171" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GildedRose/GildedRoseTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GildedRose/GildedRose.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GildedRose/GildedRose.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1065" />
+    <option name="y" value="569" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Refactory" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Refactory" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="GildedRose" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4862031d-6efe-47c1-9caf-c5b790d0b668" name="Default Changelist" comment="" />
+      <created>1538729046757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538729046757</updated>
+      <workItem from="1538729047850" duration="575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="575000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1065" y="569" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.047761194" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GildedRose/GildedRoseTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GildedRose/GildedRose.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <marker date="1538729538007" expanded="true" signature="51:3243" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="81:3241" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="159:211" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="248:3235" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="308:3225" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="732:972" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="829:950" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="1076:1964" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="1254:1942" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="1334:1598" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="1423:1568" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="1652:1916" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="1741:1886" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2050:2145" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2187:3211" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2259:2952" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2371:2765" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2451:2739" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2564:2709" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2794:2930" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="2977:3193" ph="{...}" />
+            <marker date="1538729538007" expanded="true" signature="3050:3171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
