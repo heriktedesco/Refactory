@@ -9,11 +9,12 @@ namespace Tennis
         private string p2res = "";
         private string player1Name;
         private string player2Name;
+        protected static int numberZero = 0;
 
         public TennisGame2(string player1Name, string player2Name)
         {
             this.player1Name = player1Name;
-            p1point = 0;
+            p1point = numberZero;
             this.player2Name = player2Name;
         }
 
@@ -22,7 +23,7 @@ namespace Tennis
             var score = "";
             if (p1point == p2point && p1point < 3)
             {
-                if (p1point == 0)
+                if (p1point == numberZero)
                     score = "Love";
                 if (p1point == 1)
                     score = "Fifteen";
@@ -33,7 +34,7 @@ namespace Tennis
             if (p1point == p2point && p1point > 2)
                 score = "Deuce";
 
-            if (p1point > 0 && p2point == 0)
+            if (p1point > numberZero && p2point == numberZero)
             {
                 if (p1point == 1)
                     p1res = "Fifteen";
@@ -45,7 +46,7 @@ namespace Tennis
                 p2res = "Love";
                 score = p1res + "-" + p2res;
             }
-            if (p2point > 0 && p1point == 0)
+            if (p2point > numberZero && p1point == numberZero)
             {
                 if (p2point == 1)
                     p2res = "Fifteen";
@@ -93,11 +94,11 @@ namespace Tennis
                 score = "Advantage player2";
             }
 
-            if (p1point >= 4 && p2point >= 0 && (p1point - p2point) >= 2)
+            if (p1point >= 4 && p2point >= numberZero && (p1point - p2point) >= 2)
             {
                 score = "Win for player1";
             }
-            if (p2point >= 4 && p1point >= 0 && (p2point - p1point) >= 2)
+            if (p2point >= 4 && p1point >= numberZero && (p2point - p1point) >= 2)
             {
                 score = "Win for player2";
             }
@@ -106,7 +107,7 @@ namespace Tennis
 
         public void SetP1Score(int number)
         {
-            for (int i = 0; i < number; i++)
+            for (int i = numberZero; i < number; i++)
             {
                 p1point++;
             }
@@ -114,7 +115,7 @@ namespace Tennis
 
         public void SetP2Score(int number)
         {
-            for (var i = 0; i < number; i++)
+            for (var i = numberZero; i < number; i++)
             {
                 p2point++;
             }
