@@ -22,37 +22,16 @@ public class Yatzy {
         return 0;
     }
 
-    public static int Ones(int d1, int d2, int d3, int d4, int d5) {
-        int sum = 0;
-        if (d1 == 1) sum++;
-        if (d2 == 1) sum++;
-        if (d3 == 1) sum++;
-        if (d4 == 1) sum++;
-        if (d5 == 1) 
-            sum++;
-
-        return sum;
+    public Ones(int d1, int d2, int d3, int d4, int d5) {
+        return totalDicesPoint(d1, d2, d3, d4, d5, 1);
     }
 
     public static int Twos(int d1, int d2, int d3, int d4, int d5) {
-        int sum = 0;
-        if (d1 == 2) sum += 2;
-        if (d2 == 2) sum += 2;
-        if (d3 == 2) sum += 2;
-        if (d4 == 2) sum += 2;
-        if (d5 == 2) sum += 2;
-        return sum;
+        return totalDicesPoint(d1, d2, d3, d4, d5, 2);
     }
 
     public static int Threes(int d1, int d2, int d3, int d4, int d5) {
-        int s;    
-        s = 0;
-        if (d1 == 3) s += 3;
-        if (d2 == 3) s += 3;
-        if (d3 == 3) s += 3;
-        if (d4 == 3) s += 3;
-        if (d5 == 3) s += 3;
-        return s;
+        return totalDicesPoint(d1, d2, d3, d4, d5, 3);
     }
 
     protected int[] dice;
@@ -233,4 +212,19 @@ public class Yatzy {
         else
             return 0;
     }
+    
+    public int totalDicesPoint(int d1, int d2, int d3, int d4, int d5, int value){ 
+
+        int sum;    
+        sum = 0;
+        
+        if (d1 == value) sum += value;
+        if (d2 == value) sum += value;
+        if (d3 == value) sum += value;
+        if (d4 == value) sum += value;
+        if (d5 == value) sum += value;
+        
+        return sum;
+
+    } 
 }
