@@ -15,7 +15,7 @@ namespace Tennis
 
         public void WonPoint(string playerName)
         {
-            if (playerName == "player1")
+            if (IsPlayer1Turn(playerName))
                 m_score1 += 1;
             else
                 m_score2 += 1;
@@ -25,7 +25,7 @@ namespace Tennis
         {
             string score = "";
             var tempScore = 0;
-            if (m_score1 == m_score2)
+            if (IsEqualScore())
             {
                 switch (m_score1)
                 {
@@ -44,7 +44,7 @@ namespace Tennis
 
                 }
             }
-            else if (m_score1 >= 4 || m_score2 >= 4)
+            else if (IsWinOrAdvantageScore())
             {
                 var minusResult = m_score1 - m_score2;
                 if (minusResult == 1) score = "Advantage player1";
@@ -77,6 +77,18 @@ namespace Tennis
             }
             return score;
         }
+    }
+    private bool IsPlayer1Turn(string playerName)
+    {
+         return playerName == "player1";
+    }
+    private bool IsEqualScore()
+    {
+        return m_score1 == m_score2;
+    }
+    private bool IsWinOrAdvantageScore()
+    {
+        return m_score1 >= 4 || m_score2 >= 4;
     }
 }
 

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4862031d-6efe-47c1-9caf-c5b790d0b668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GildedRose/GildedRose.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GildedRose/GildedRose.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4862031d-6efe-47c1-9caf-c5b790d0b668" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +18,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="2" />
+          <entry key="cs" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="2" />
+          <entry key="C#" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GildedRose/GildedRose.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1087">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="522">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <marker date="1538731502259" expanded="true" signature="51:2791" ph="{...}" />
                 <marker date="1538731502259" expanded="true" signature="81:2789" ph="{...}" />
@@ -84,12 +82,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tennis/TennisGame2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="124" column="22" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="124" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tennis/TennisGame1.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tennis/TennisGame2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tennis/TennisGame1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GildedRose/GildedRoseTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GildedRose/GildedRose.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -107,8 +121,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1162" />
-    <option name="y" value="296" />
+    <option name="x" value="999" />
+    <option name="y" value="298" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -128,6 +142,11 @@
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
               <item name="Refactory" type="34e6ba20:FileSystemExplorerNode" />
               <item name="GildedRose" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Refactory" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Tennis" type="34e6ba20:FileSystemExplorerNode" />
             </path>
           </expand>
           <select />
@@ -162,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538729046757</updated>
-      <workItem from="1538729047850" duration="2433000" />
+      <workItem from="1538729047850" duration="3542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2433000" />
+    <option name="totallyTimeSpent" value="3542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,11 +198,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1162" y="296" width="1400" height="1000" extended-state="0" />
+    <frame x="1182" y="337" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.047761194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -235,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GildedRose/GildedRose.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1087">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="522">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <marker date="1538731502259" expanded="true" signature="51:2791" ph="{...}" />
             <marker date="1538731502259" expanded="true" signature="81:2789" ph="{...}" />
@@ -263,6 +282,16 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tennis/TennisGame2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="124" column="22" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="124" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tennis/TennisGame1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
