@@ -56,9 +56,10 @@ public class Yatzy {
     }
 
     protected int[] dice;
+    protected static int MaxNumber = 6;
     public Yatzy(int d1, int d2, int d3, int d4, int _5)
     {
-        dice = new int[5];
+        dice = new int[MaxNumber - 1];
         dice[0] = d1;
         dice[1] = d2;
         dice[2] = d3;
@@ -99,7 +100,7 @@ public class Yatzy {
 
     public static int ScorePair(int d1, int d2, int d3, int d4, int d5)
     {
-        int[] counts = new int[6];
+        int[] counts = new int[MaxNumber];
         counts[d1-1]++;
         counts[d2-1]++;
         counts[d3-1]++;
@@ -114,7 +115,7 @@ public class Yatzy {
 
     public static int TwoPair(int d1, int d2, int d3, int d4, int d5)
     {
-        int[] counts = new int[6];
+        int[] counts = new int[MaxNumber];
         counts[d1-1]++;
         counts[d2-1]++;
         counts[d3-1]++;
@@ -135,8 +136,7 @@ public class Yatzy {
 
     public static int FourOfAKind(int _1, int _2, int d3, int d4, int d5)
     {
-        int[] tallies;
-        tallies = new int[6];
+        int[] tallies = new int[MaxNumber];
         tallies[_1-1]++;
         tallies[_2-1]++;
         tallies[d3-1]++;
@@ -165,8 +165,7 @@ public class Yatzy {
 
     public static int SmallStraight(int d1, int d2, int d3, int d4, int d5)
     {
-        int[] tallies;
-        tallies = new int[6];
+        int[] tallies = new int[MaxNumber];
         tallies[d1-1] += 1;
         tallies[d2-1] += 1;
         tallies[d3-1] += 1;
@@ -183,8 +182,7 @@ public class Yatzy {
 
     public static int LargeStraight(int d1, int d2, int d3, int d4, int d5)
     {
-        int[] tallies;
-        tallies = new int[6];
+        int[] tallies = new int[MaxNumber];
         tallies[d1-1] += 1;
         tallies[d2-1] += 1;
         tallies[d3-1] += 1;
