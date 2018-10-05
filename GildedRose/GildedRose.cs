@@ -21,13 +21,7 @@ namespace csharp
                 
                 if (!backstageSentence && !agedSentence)
                 {
-                    if (Items[i].Quality > 0)
-                    {
-                        if (!sulfurasSentence)
-                        {
-                            Items[i].Quality = Items[i].Quality - 1;
-                        }
-                    }
+                    ReductionQuality(i, sulfurasSentence);
                 }
                 else
                 {
@@ -39,18 +33,12 @@ namespace csharp
                         {
                             if (Items[i].SellIn < 11)
                             {
-                                if (Items[i].Quality < 50)
-                                {
-                                    Items[i].Quality = Items[i].Quality + 1;
-                                }
+                                UpgradeQuality(i);
                             }
 
                             if (Items[i].SellIn < 6)
                             {
-                                if (Items[i].Quality < 50)
-                                {
-                                    Items[i].Quality = Items[i].Quality + 1;
-                                }
+                                UpgradeQuality(i);
                             }
                         }
                     }
@@ -67,13 +55,7 @@ namespace csharp
                     {
                         if (!backstageSentence)
                         {
-                            if (Items[i].Quality > 0)
-                            {
-                                if (!sulfurasSentence)
-                                {
-                                    Items[i].Quality = Items[i].Quality - 1;
-                                }
-                            }
+                            ReductionQuality(i, sulfuras);
                         }
                         else
                         {
@@ -82,11 +64,26 @@ namespace csharp
                     }
                     else
                     {
-                        if (Items[i].Quality < 50)
-                        {
-                            Items[i].Quality = Items[i].Quality + 1;
-                        }
+                        UpgradeQuality(i)
                     }
+                }
+            }
+        }
+        
+        private void UpgradeQuality(int i)
+        {
+            if (Items[i].Quality < 50)
+            {
+                Items[i].Quality = Items[i].Quality + 1;
+            }
+        }
+        private void ReductionQuality(int i, bool sulfurasSentence)
+        {
+            if (Items[i].Quality > 0)
+            {
+                if (!sulfurasSentence)
+                {
+                    Items[i].Quality = Items[i].Quality - 1;
                 }
             }
         }
